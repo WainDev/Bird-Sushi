@@ -1,0 +1,21 @@
+/* The following line can be included in a src/App.scss */
+@import "~bootstrap/scss/bootstrap";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.slider__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
